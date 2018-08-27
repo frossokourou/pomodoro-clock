@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One|Gugi|Jua" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.0.0-beta.3/babel.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <title>Pomodoro Clock</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pomodoro Clock</h1>
+    </header>
+    <main>
+      <div class='control'>
+        <span class='break'>Break Length</span>
+        <span class='session'>Session Length</span>
+        <button id='brSet'>-</button>
+        <span id='brTime'>5</span>
+        <button id='brSet'>+</button>
+        <span class='value'></span>
+        <button id='seSet'>-</button>
+        <span id='seTime'>25</span>
+        <button id='seSet'>+</button>
+      </div>
+      <div id="message"></div>
+      <div class='counter'>
+        <span id='title'>Session</span>
+        <div id='timer'>25</div>
+      </div>
+    </main>
+    <footer>
+      Created by <a href='https://www.linkedin.com/in/kouroutsidou/' target='_blank'>Frosso</a>
+    </footer>
+  </body>
+</html>

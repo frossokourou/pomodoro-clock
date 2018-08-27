@@ -1,0 +1,76 @@
+body {
+  background-color: rgba(238, 155, 185, 0.83);
+  font-family: gugi, helvetica, serif;
+}
+footer {
+  text-align: center;
+  font-size: smaller;
+  margin: 2em auto;
+}
+header {
+  color: #621833;
+  letter-spacing: .3rem;
+  font-family: 'Carter One', helvetica;
+  font-size: larger;
+  text-shadow: 2px 4px 8px #fdecf3;
+  text-align: center;
+  text-transform: uppercase;
+}
+button {
+  border: none;
+  background-color: inherit;
+  outline: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.control {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 0 auto;
+  width: 287px;
+}
+.break {
+  grid-row: 1 / 1;
+  grid-column: 1 / 4;
+  text-align: center;
+}
+.session {
+  grid-row: 1 / 1;
+  grid-column: 5 / 8;
+  text-align: center;
+}
+.value, #brTime, #seTime, #brSet, #seSet {
+  grid-row: 2 / 2;
+  margin: 0.2em 0;
+  text-align: center;
+}
+.counter {
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+  letter-spacing: .2rem;
+  margin: 1em auto;
+  padding: 25px;
+  height: 180px;
+  width: 180px;
+  border: solid #790b34;
+  border-radius: 50%;
+  background-color: #e51561;
+  color: #fad1e2;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  cursor: pointer;
+}
+#timer {
+  margin-top: 55px;
+  font-size: 40px;
+}
+#title {
+  font-size: 1.3em;
+}
+#message {
+  margin: 2em 0 1em 0;
+  text-align: center;
+  color: #621833;
+}
